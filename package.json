@@ -1,7 +1,7 @@
 {
   "name": "@jaguarswap/sdk-core",
   "license": "MIT",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "⚒️ An SDK for building applications on top of Uniswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -40,5 +40,6 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
