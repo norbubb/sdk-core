@@ -39,13 +39,13 @@ export const V2_ROUTER_ADDRESSES: AddressMap = {}
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
 const X1_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x3F6904E81f636f0F476595ef633033647C702487',
-  multicallAddress: '0xFfF0B8e56B5489a45F47128d93Ae5d471Ae0B3DF',
-  quoterAddress: '0xb8b157C232cA20f65Fa6bFE965f15040171cE95f',
-  v3MigratorAddress: '0x15ECbD27D8874fdF8d19564484E8E7EDEF8C2e3A',
-  nonfungiblePositionManagerAddress: '0x6d5B724F924aC9e226FA28FcCc257670f4699D17',
-  tickLensAddress: '0x065d9395CaC5761c08518C9686D15C12B6DE57C9',
-  swapRouter02Address: '0xFcCd9d65b8ebb31DC5266434685c1f7EC3124928'
+  v3CoreFactoryAddress: '0x163c162f6EfE12050313a89356F54385e1181119',
+  multicallAddress: '0xE53F0d699A4edF1F9C23caB074cFD988b7A9E183',
+  quoterAddress: '0x2a7F7b556564B8aFc54cDBa8bfe059Ec8944B740',
+  v3MigratorAddress: '0x5Ff00497f3f31452389eB31039CfbB91C24AB510',
+  nonfungiblePositionManagerAddress: '0x6C96DE60866152A77c3808AABb0C4fB82d01ba11',
+  tickLensAddress: '0x6C70dA82e9F32bc35375B017D886fbf231A1495C',
+  swapRouter02Address: '0x26Fa86Bf4D118C5E0d1e47a6A5edf0304f7D2A31'
 }
 const X1_TESTNET_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0x3F6904E81f636f0F476595ef633033647C702487',
@@ -96,21 +96,17 @@ export const GOVERNANCE_ALPHA_V0_ADDRESSES: AddressMap = constructSameAddressMap
 /**
  * The older V1 governance address
  */
-export const GOVERNANCE_ALPHA_V1_ADDRESSES: AddressMap = {
-}
+export const GOVERNANCE_ALPHA_V1_ADDRESSES: AddressMap = {}
 /**
  * The latest governor bravo that is currently admin of timelock
  */
-export const GOVERNANCE_BRAVO_ADDRESSES: AddressMap = {
-}
+export const GOVERNANCE_BRAVO_ADDRESSES: AddressMap = {}
 
 export const TIMELOCK_ADDRESSES: AddressMap = constructSameAddressMap('0x1a9C8182C09F50C8318d769245beA52c32BE35BC')
 
-export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {
-}
+export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {}
 
-export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
-}
+export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {}
 
 export const QUOTER_ADDRESSES: AddressMap = {
   ...SUPPORTED_CHAINS.reduce<AddressMap>((memo, chainId) => {
@@ -133,8 +129,7 @@ export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e')
 }
 
-export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
-}
+export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {}
 
 export const TICK_LENS_ADDRESSES: AddressMap = {
   ...SUPPORTED_CHAINS.reduce<AddressMap>((memo, chainId) => {
