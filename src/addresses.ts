@@ -39,13 +39,13 @@ export const V2_ROUTER_ADDRESSES: AddressMap = {}
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
 const X1_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x163c162f6EfE12050313a89356F54385e1181119',
-  multicallAddress: '0xE53F0d699A4edF1F9C23caB074cFD988b7A9E183',
-  quoterAddress: '0x2a7F7b556564B8aFc54cDBa8bfe059Ec8944B740',
-  v3MigratorAddress: '0x5Ff00497f3f31452389eB31039CfbB91C24AB510',
-  nonfungiblePositionManagerAddress: '0x6C96DE60866152A77c3808AABb0C4fB82d01ba11',
-  tickLensAddress: '0x6C70dA82e9F32bc35375B017D886fbf231A1495C',
-  swapRouter02Address: '0x26Fa86Bf4D118C5E0d1e47a6A5edf0304f7D2A31'
+  v3CoreFactoryAddress: '0x5b7A771024036a8E71170378Db4B96D1A82A1ec4',
+  multicallAddress: '0x549113E859517af8B3bFc04338E20206e2ff7Bb2',
+  quoterAddress: '0xE64AaF63a525257C59e8b5f8A8c47BA3b76Cd94C',
+  v3MigratorAddress: '0x90AeCD70A8Fa3c29E2284C305C2A4b815aD62fd5',
+  nonfungiblePositionManagerAddress: '0x7c210033554499aBe695f528A4c9C64488c8b365',
+  tickLensAddress: '0x6362C696444BE85735cffe405167E98A19b7E620',
+  swapRouter02Address: '0x5E5646D9902131A59893537CA3dcFB4B064B4de0'
 }
 const X1_TESTNET_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0x3F6904E81f636f0F476595ef633033647C702487',
@@ -56,6 +56,7 @@ const X1_TESTNET_ADDRESSES: ChainAddresses = {
   tickLensAddress: '0x065d9395CaC5761c08518C9686D15C12B6DE57C9',
   swapRouter02Address: '0xFcCd9d65b8ebb31DC5266434685c1f7EC3124928'
 }
+
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.X1]: X1_ADDRESSES,
